@@ -1,5 +1,5 @@
-# RDPG-Biped
-Code for 'Recurrent Network-based Deterministic Policy Gradient for Solving Bipedal Walking Challenge on Rugged Terrains: https://arxiv.org/abs/1710.02896)
+# RDPG-Biped Code for 'Recurrent Network-based Deterministic Policy Gradient for Solving Bipedal Walking Challenge on Rugged Terrains'
+https://arxiv.org/abs/1710.02896
 
 1) Environment: Miniconda is recommended as pybox does not support pip
 - python 2.7: print format might become an issue with python 3 but other than that, is fine
@@ -13,6 +13,6 @@ Code for 'Recurrent Network-based Deterministic Policy Gradient for Solving Bipe
 - display: run 'display.py' within 'display.tar.gz'
 
 3) Other models
-- DDPG(Feedforward network-based DPG): d3_6
+- DDPG(Feedforward network-based DPG): d3_9
 - RDPG with parameter noise: r17_41_opt0
 - Our RDPG with experience injection: TBA
