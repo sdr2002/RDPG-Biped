@@ -8,9 +8,9 @@ https://arxiv.org/abs/1710.02896
 - OpenAI gym and pybox: for gym, download the files in 'gym-files.tar.gz' and replace 'bipedal_walk.py(many other versions are provided in the tar file)' and 'time_limit.py' into the original files
 
 2) Run default model (Our RDPG)
-- learn and run: run 'gym_ddpg.py'
+- learn and run: run 'gym_ddpg.py' - be sure to make proper 'checkpoint' files for both 'saved_' folders and 'gym_ddpg' folder inside 'results' directory
 - record: run 'tester_r.py'
-- display: run 'display.py' within 'display.tar.gz'
+- display: run 'display.py' in 'results' directory
 
 3) Other models
 - DDPG(Feedforward network-based DPG): d3_9
